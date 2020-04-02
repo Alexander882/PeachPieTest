@@ -5,15 +5,7 @@
     <AssemblyName>PhpMain</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**/*.php;**/*.phar" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="**" Exclude="obj/**;bin/**;PublishProfiles/**;@(Compile);$(MsBuildThisFile)">
-      <PackagePath>contentFiles/any/netcoreapp2.0/wwwroot/</PackagePath>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-      <CopyToOutputDirectory>true</CopyToOutputDirectory>
-      <CopyToPublishDirectory>true</CopyToPublishDirectory>
-    </Content>
+    <Compile Include="index.php" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotNet\DotNet.csproj" />
