@@ -1,11 +1,10 @@
 <?php
 
-require_once __DIR__ .'/SomeInterface.php';
+echo __DIR__;
 
-class TroubleClass extends \DotNet\AbstractClass implements \PhpInterfaces\SomeInterface {
-	public function GetInt(): int{
-		return 1;
-	}
+require_once __DIR__ .'\SomeInterface.php';
+
+class TroubleClass  implements \PhpInterfaces\SomeInterface {
 	public function GetString(): string {
 		return "abc";
 	}

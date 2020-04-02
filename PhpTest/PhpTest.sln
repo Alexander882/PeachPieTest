@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{13435712-1CF6-47A4-913C-2DAD57C9F3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{13435712-1CF6-47A4-913C-2DAD57C9F3FC}"
 EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PhpMain", "PhpMain\PhpMain.msbuildproj", "{0363BD1F-1AE3-4A79-8D63-1A56C8DEB420}"
 EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PhpInterfaces", "PhpInterfaces\PhpInterfaces.msbuildproj", "{85E30C0F-9AE1-44AE-9408-88FAE2E9B5CC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "DotNet\DotNet.csproj", "{1B0DEAF4-95B2-4967-A19E-05050BD22176}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{85E30C0F-9AE1-44AE-9408-88FAE2E9B5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85E30C0F-9AE1-44AE-9408-88FAE2E9B5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85E30C0F-9AE1-44AE-9408-88FAE2E9B5CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B0DEAF4-95B2-4967-A19E-05050BD22176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B0DEAF4-95B2-4967-A19E-05050BD22176}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B0DEAF4-95B2-4967-A19E-05050BD22176}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B0DEAF4-95B2-4967-A19E-05050BD22176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

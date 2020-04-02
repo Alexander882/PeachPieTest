@@ -1,11 +1,11 @@
-<Project Sdk="Peachpie.NET.Sdk/0.9.900">
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.900">
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>PhpMain</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="*.php" />
+    <Compile Include="index.php" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="**" Exclude="obj/**;bin/**;PublishProfiles/**;@(Compile);$(MsBuildThisFile)">
@@ -16,7 +16,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotNet\DotNet.csproj" />
     <ProjectReference Include="..\PhpInterfaces\PhpInterfaces.msbuildproj" />
   </ItemGroup>
 </Project>
