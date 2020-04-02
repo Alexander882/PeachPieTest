@@ -11,5 +11,4 @@ class TroubleClass  implements \PhpInterfaces\SomeInterface {
 }
 
 $troubleClass = new TroubleClass();
-echo $troubleClass->GetInt()."<br>";
 echo $troubleClass->GetString()."<br>";
